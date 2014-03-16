@@ -59,7 +59,6 @@ def pose_tuple_to_transformation(pose_tuple):
   return np.matrix(tf.compose_matrix(angles=angles, translate=pose_tuple[0]))
 
 
-
 def kdtree_example():
   x, y, z = np.mgrid[0:1:100j, 0:1:100j, 0:1:100j]
   
